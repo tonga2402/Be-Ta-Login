@@ -1,0 +1,91 @@
+@import url('./globalStyles.css');
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+
+}
+
+nav h1 span {
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--lila);
+}
+nav img {
+    display: block;
+    height: 80%;
+}
+
+.container {
+    padding: 0 5%;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 24rem;
+    margin: 10rem auto;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form-header h2 {
+    margin-bottom: .8rem;
+}
+
+.form-header p {
+    background-color: var(--laranja);
+    padding: .2rem 1rem;
+}
+
+form label {
+    margin-bottom: .3rem;
+}
+
+form input {
+    border-radius: 100vh;
+    margin-bottom: 1rem;
+    padding: .4rem 1rem;
+    border: 2px solid var(--app-grey);
+}
+
+form input:focus {
+    outline: none;
+    border: 2px solid var(--laranja);
+}
+
+form button{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: .6rem 0;
+    border: solid 1px rgba(255, 255, 255, 0);
+    border-radius: .3rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+form button:hover{
+    border: solid 1px var(--laranja);
+}
+
+.ingresarA {
+    margin-top: -8rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.ingresarA a {
+    color: var(--app-grey);
+    text-decoration: none;
+}
+.ingresarA a:hover{
+    color: var(--laranja);
+}
